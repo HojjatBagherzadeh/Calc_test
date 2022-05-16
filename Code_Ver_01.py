@@ -30,12 +30,12 @@ print(user1.__dict__)
 user1.activate()
 print(user1.is_active())
 
-user1.add_points(25)
+user1.add_points(35)
 print(user1.get_points())
 
 print("User total points: {}".format(user1.get_points()))
 print("User level: {}".format(user1.get_level()))
-user1.add_points(205)
+user1.add_points(220)
 print("User total points: {}".format(user1.get_points()))
 print("User level: {}".format(user1.get_level()))
 
